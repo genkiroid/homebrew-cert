@@ -1,9 +1,9 @@
 class Cert < Formula
   desc "Get server's certificate information."
   homepage "https://github.com/genkiroid/cert"
-  url "https://github.com/genkiroid/cert/releases/download/dev-homebrew/cert_dev-homebrew_macOs_64bit.tar.gz"
-  version "dev-homebrew"
-  sha256 "d33bdaa592ca57cbb44f7709d79408cfe2985c2466f2d273a661ee1bf53255d2"
+  url "https://github.com/genkiroid/cert/releases/download/0.3.0/cert_0.3.0_macOs_64bit.tar.gz"
+  version "0.3.0"
+  sha256 "842d2c11669c3bfcf78b2819621c90f3b3d69c7d3d3207332051884cd143f0ca"
 
   def install
     bin.install "cert"
