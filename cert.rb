@@ -1,14 +1,14 @@
 class Cert < Formula
   desc "Get server's certificate information."
   homepage "https://github.com/genkiroid/cert"
-  version "0.13.0"
+  version "0.14.0"
 
   if Hardware::CPU.is_64_bit?
-    url "https://github.com/genkiroid/cert/releases/download/0.13.0/cert_0.13.0_macOs_64bit.tar.gz"
-    sha256 "83df51fad3317c87a9fe286534b7be8195ce057cdffc2a56e273d6dab310c88a"
+    url "https://github.com/genkiroid/cert/releases/download/0.14.0/cert_0.14.0_macOs_64bit.tar.gz"
+    sha256 "91c23b52fbd811f1c538460bbf7345adf0df2a14c4dc3ebb738d856e83ba783b"
   else
-    url "https://github.com/genkiroid/cert/releases/download/0.13.0/cert_0.13.0_macOs_32bit.tar.gz"
-    sha256 "1b596cd63dee21c5923f112aa9a0bb8bfec35a6bb215cc682343022d1f7688b8"
+    url "https://github.com/genkiroid/cert/releases/download/0.14.0/cert_0.14.0_macOs_32bit.tar.gz"
+    sha256 "3da0280e6f2ceaa1676d7125d353361f822aaa8120ceadd7a42dec15ca0b5182"
   end
 
   def install
